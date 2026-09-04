@@ -1,0 +1,37 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "sony-broadcastmonitor",
+	"type": "connection",
+	"name": "Sony Professional Video Monitor",
+	"shortname": "Sony Monitor",
+	"description": "Control Sony professional broadcast/video monitors over the Sony SDCP/VMC network protocol",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-sony-broadcastmonitor.git",
+	"bugs": "https://github.com/bitfocus/companion-module-sony-broadcastmonitor/issues",
+	"maintainers": [
+		{
+			"name": "Peter Daniel"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Sony",
+	"products": [
+		"BVM-E171",
+		"BVM-E251",
+		"BVM-X300",
+		"PVM-X550",
+		"PVM-A250",
+		"PVM-A170",
+		"LMD-A240",
+		"LMD-A220",
+		"LMD-A170"
+	],
+	"keywords": ["Video", "Monitor", "Broadcast", "Production", "SDCP", "VMC"]
+}

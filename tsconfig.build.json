@@ -1,0 +1,11 @@
+{
+	"extends": "@companion-module/tools/tsconfig/node22/recommended.json",
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules/**", "dist/**", "test/**"],
+	"compilerOptions": {
+		"outDir": "./dist",
+		"baseUrl": "./",
+		"module": "ES6",
+		"esModuleInterop": true
+	}
+}
