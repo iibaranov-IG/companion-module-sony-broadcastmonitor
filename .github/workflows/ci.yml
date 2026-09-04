@@ -1,9 +1,8 @@
-name: Validate Companion v3 rewrite
+name: Validate module
 
 on:
+  pull_request:
   push:
-    branches:
-      - rewrite/companion-v3
   workflow_dispatch:
 
 permissions:
